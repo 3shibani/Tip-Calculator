@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+
+<body>
+  <h1>Spli <br> tter</h1>
+  <main>
+    <form>
+      <div class="info-container">
+        <p class="bill-text">
+          Bill
+        </p>
+        <div class="bill-input-container">
+          <input type="number" min="1" placeholder="142.55" required class="bill-input input-custom" id="bill-input">
+        </div>
+        <p class="tip-text">
+          Select Tip %
+        </p>
+        <div class="tip-container">
+          <button class="btn" >
+            5%
+          </button>
+          <button class="btn">
+            10%
+          </button>
+          <button class="btn" >
+            15%
+          </button>
+          <button class="btn" >
+            25%
+          </button>
+          <button class="btn" >
+            50%
+          </button>
+          <input type="number" placeholder="Custom" disabled required class="tip-custom-input input-custom" min="1"
+            id="tip-custom">
+        </div>
+
+        <p class="people-text">
+          Number of People
+        </p>
+        <div class="people-input-container">
+          <input type="number" class="people-input input-custom"  placeholder="5" id="people-input">
+        </div>
+      </div>
+
+      <div class="results-container">
+        <div class="amount-container">
+          <p class="amount-tip-text">
+            Tip Amount
+          </p>
+          <p class="amount-person">
+            / person
+          </p>
+        </div>
+        <h3 id="tip-amount-value">$4.27</h3>
+        <div class="total-container">
+          <p class="total-text">
+            Total
+          </p>
+          <p class="total-person">
+            / person
+          </p>
+        </div>
+        <h3 id="total-value">$32.79</h3>
+
+        <button type="submit"  class="btn-submit" id="btn-submit" disabled>RESET </button>
+
+      </div>
+
+
+    </form>
+  </main>
+
+  
+
+
+</body>
+
+</html>
